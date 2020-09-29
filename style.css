@@ -2,12 +2,12 @@
   --main-width: 550px;
   
 }
-.centrale{
+.centrale-box{
   display:flex;
   justify-content: center;
   height:490px;
 }
-.gauche{
+.left-box{
   display:flex;
   justify-content: flex-start;
   flex-direction:column;
@@ -17,7 +17,7 @@
   
   
 }
-.coordonnés{
+.coordonnes{
   display:flex;
   justify-content: flex-end; 
   background-color: black;
@@ -42,7 +42,7 @@ h2{
   margin-right:100px;
   text-align:center;
 }
-.compétences{
+.competences{
   display:flex;
   justify-content: flex-end;
   background-color: black;
@@ -52,19 +52,19 @@ h2{
   margin-top:80px;
   margin-left:15px;
 }
-.millieu{
+.mid-box{
   width:var(--main-width);
   background-color:purple;
 }
-.droite{
+.right-box{
   width:var(--main-width);
   background-color:pink;
 }
-.navigations{
+nav{
   height:80px;
   background-color:green;
 }
-.bas{
+.foot-box{
   height:220px;
   background-color:yellow;
 }
