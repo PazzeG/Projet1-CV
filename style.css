@@ -1,0 +1,25 @@
+.centrale{
+    display:flex;
+    justify-content: center;
+    height:490px;
+  }
+  .gauche{
+    width:500px;
+    background-color:red;
+  }
+  .millieu{
+    width:500px;
+    background-color:purple;
+  }
+  .droite{
+    width:500px;
+    background-color:pink;
+  }
+  .navigations{
+    height:80px;
+    background-color:green;
+  }
+  .bas{
+    height:220px;
+    background-color:yellow;
+  }
