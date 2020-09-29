@@ -1,25 +1,70 @@
+:root {
+  --main-width: 550px;
+  
+}
 .centrale{
-    display:flex;
-    justify-content: center;
-    height:490px;
-  }
-  .gauche{
-    width:500px;
-    background-color:red;
-  }
-  .millieu{
-    width:500px;
-    background-color:purple;
-  }
-  .droite{
-    width:500px;
-    background-color:pink;
-  }
-  .navigations{
-    height:80px;
-    background-color:green;
-  }
-  .bas{
-    height:220px;
-    background-color:yellow;
-  }
+  display:flex;
+  justify-content: center;
+  height:490px;
+}
+.gauche{
+  display:flex;
+  justify-content: flex-start;
+  flex-direction:column;
+  width:var(--main-width);
+  background-color:red;
+  border-radius: 0px;
+  
+  
+}
+.coordonnés{
+  display:flex;
+  justify-content: flex-end; 
+  background-color: black;
+  height:145px;
+  width:350px;
+  border-radius:25px;
+  margin-top:80px;
+  margin-left:145px;
+  
+}
+
+#test{
+  transition:0.5s;
+} 
+#test:hover{
+  transform : scale(1.2);
+  
+}
+
+h2{
+  color: white ;
+  margin-right:100px;
+  text-align:center;
+}
+.compétences{
+  display:flex;
+  justify-content: flex-end;
+  background-color: black;
+  height:145px;
+  width:350px;
+  border-radius:25px;
+  margin-top:80px;
+  margin-left:15px;
+}
+.millieu{
+  width:var(--main-width);
+  background-color:purple;
+}
+.droite{
+  width:var(--main-width);
+  background-color:pink;
+}
+.navigations{
+  height:80px;
+  background-color:green;
+}
+.bas{
+  height:220px;
+  background-color:yellow;
+}
