@@ -19,7 +19,155 @@
     height:80px;
     background-color:green;
   }
-  .bas{
-    height:220px;
+
+
+
+  .foot{
+    height:224px;
     background-color:yellow;
+
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
   }
+  
+  .dispo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    
+    border: solid;
+    width: 350px; 
+    height: 170px;
+    border-radius: 30px;
+    margin: 15px;
+    background: #ffb233; 
+    
+    
+     
+  }
+  
+  .dispo:hover {
+    background-color: gold;
+    scale: 1.1;
+  }
+  
+  .proj{
+    border: solid;
+    width: 350px; 
+    height: 170px; 
+    border-radius: 30px;
+    text-align: center;
+    margin: 15px; 
+    background: #ffb233; 
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    
+  }
+  
+  .contact {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    font-size: 20px;
+    line-height: 5px;
+    text-align: center;
+    background: #ffb233; 
+    margin-top: 20px; 
+    
+  }
+  
+  .foot{
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-around;
+    
+  }
+  
+  .proj:hover{
+    
+    background-color: gold;
+    scale: 1.1;
+    }
+  
+  
+  .contact:hover{
+    background-color: gold;
+    scale: 1.2;
+  }
+  
+  
+  
+  
+  .dispo:before {
+      content:"DISPONIBILITE";
+      font-weight: bold;
+      font-size: 20px;
+      
+      
+  }
+  
+  .dispo:hover:before {
+      content:"Immediate";
+      font-weight: normal;
+  }
+  
+  
+  .proj:before {
+      content:"PORJET";
+      font-weight: bold;
+      font-size: 20px;
+  
+      
+  }
+  
+  .proj:hover:before {
+
+    content:"Le voyage dans le passé  à bord d'une machine à voyager dans le temps. Marty, doit résoudre les paradoxes temporels provoqués par ses interventions dans le passé et trouver le moyen de faire fonctionner la machine pour retourner à son époque d'origine";
+    font-weight: normal;
+    font-size: 15px;
+  
+  }
+
+  .formulaire{
+    background-color: #edf750;
+  }
+
+  .lienForm{
+    text-decoration: none;
+    color: black;
+  }
+
+
+  form {
+    margin: 0 auto;
+    width: 400px;
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+    
+    position:absolute;
+    top:50%;
+    left:50%;
+    margin-left:-150px; 
+    margin-top:-100px; 
+    background: #efece7;
+    
+  }
+
+
+
+  label
+{ 
+	display: block; /* La balise devient de type block. */
+	width: 150px;
+}
+
+  
