@@ -1,14 +1,120 @@
+h2, p, ul li{
+  color: white ;
+  margin-right:96px;
+  text-align:center;
+}
 
 
-body{
-  background-color: var(--white);
-  margin:0;
+.central-box{
+  width: 100%;
+  display:flex;
+  flex-direction: row; 
+  flex-wrap: wrap;
+  justify-content: center;
+  height:70%;
 }
-.centrale{
-    display:flex;
-    justify-content: center;
-    height:490px;
+
+.left-box{
+  width: 33.33%;
+  display:flex;
+  
+  flex-direction:column;
+  background-color:red;
+ 
+  
+  
 }
+
+
+
+.mid-box{
+  width: 33.33%;
+  
+  background-color:purple;
+}
+.right-box{
+  width: 33.33%;
+  background-color:pink;
+}
+
+
+.foot-box{
+  width: 100%;  
+  height:30%;
+  background-color:yellow;
+}
+
+
+.experiences{
+  
+  display:flex;
+  background-color: black;
+  height:20%;
+  width:50%;
+  border-radius:8px;
+  margin-top:80px;
+  margin-left:2.5%;
+  margin-bottom: 40%;
+  text-align: center;
+  justify-content:center;
+  flex-direction:column; 
+  border:ridge;
+}
+/*
+.experiences:hover:before{
+  content:'age: 24 \a adresse: 10 rue de la gloire \a ville: Bikiny Bottom \a n°Tel: 06 51 44 61 66 ' ;
+  display:block;
+  white-space:pre;
+}
+
+.experiences:before{
+    content:"Coordonnées";
+}
+.experiences{
+  transition:0.5s;
+} 
+.experiences:hover{
+  transform : scale(1.2); 
+}
+*/
+
+.diplomes{
+  
+  display:flex;
+  background-color: black;
+  height:20%;
+  width:50%;
+  border-radius:8px;
+  margin-top:80px;
+  margin-left:20%;
+  text-align: center;
+  justify-content:center;
+  flex-direction:column; 
+  border:ridge;;
+}
+h2 {padding-top: 15%;}
+
+li { display: flex;
+  flex-direction: column;
+   text-align:center;
+  font-size: 62%;
+  padding-bottom: 5%;
+}
+/*
+.diplomes:hover:before{
+  content:'age: 24 \a adresse: 10 rue de la gloire \a ville: Bikiny Bottom \a n°Tel: 06 51 44 61 66 ' ;
+  display:block;
+  white-space:pre;
+}
+
+.diplomes:before{
+    content:"Coordonnées";
+}
+.diplomes{
+  transition:0.5s;
+} 
+.diplomes:hover{
+  transform : scale(1.2);} */
 
 
 /* NAVBAR */
@@ -21,7 +127,7 @@ body{
 .navigations{
   background-image: url(Sources/navBoard.png);
   justify-content: center;
-  height:80px;
+  height:10%;
   width: 100%;
   border-bottom-right-radius: 20px;
   border-bottom-left-radius: 20px;
