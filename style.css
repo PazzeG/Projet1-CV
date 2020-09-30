@@ -1,25 +1,108 @@
+
+
+body{
+  background-color: var(--white);
+  margin:0;
+}
 .centrale{
     display:flex;
     justify-content: center;
     height:490px;
-  }
-  .gauche{
-    width:500px;
-    background-color:red;
-  }
-  .millieu{
-    width:500px;
-    background-color:purple;
-  }
-  .droite{
-    width:500px;
-    background-color:pink;
-  }
-  .navigations{
-    height:80px;
-    background-color:green;
-  }
-  .bas{
-    height:220px;
-    background-color:yellow;
-  }
+}
+
+
+/* NAVBAR */
+
+:root {
+  --Dark: #273e70;
+  --white: #d8dfee;
+}
+
+.navigations{
+  background-image: url(Sources/navBoard.png);
+  justify-content: center;
+  height:80px;
+  width: 100%;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  box-shadow: 0px 0px 20px var(--Dark);
+}
+
+.navList{
+  margin-block-start: 0;
+  padding-top:1em;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  
+}
+
+.indexNav{
+  font-family: Helvetica, sans-serif;
+  color : black;
+  font-size: 14pt;
+}
+
+.indexNav:hover{
+  color :var(--Dark);
+  transition: 0.5s;
+}
+
+#iconLinkedIn::after{
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #4177B2;
+  transition: width .3s;
+}
+
+#iconLinkedIn:hover::after{
+  width: 100%;
+  transition: width .3s;
+}
+
+#iconFacebook::after{
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #4D5991;
+  transition: width .3s;
+}
+
+#iconFacebook:hover::after{
+  width: 100%;
+  transition: width .3s;
+}
+
+#iconEmail::after{
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #F6D242;
+  transition: width .3s;
+}
+
+#iconEmail:hover::after{
+  width: 100%;
+  transition: width .3s;
+}
+
+#iconTwitter::after{
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #65A4DA;
+  transition: width .3s;
+}
+
+#iconTwitter:hover::after{
+  width: 100%;
+  transition: width .3s;
+}
+
+/* NAVBAR FINISH */
