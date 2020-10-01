@@ -322,7 +322,8 @@ body{
 .photoProfil{
   display: block;
   transition: 5s;
-  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  padding-top: 8em;
 }
 
 #textTitle{
@@ -334,12 +335,6 @@ body{
   font-family: "quicksand";
   font-size: 15pt;
 }
-
-.textMid{
-  padding-bottom: 0.1em;
-}
-
-
 
 /* ---- FINISH MID DIV ---- */
 
