@@ -1,11 +1,15 @@
 :root {
   --main-width: 550px;
-  
+  --main-height:170px;
 }
 .centrale{
   display:flex;
   justify-content: center;
   height:490px;
+  color:white;
+  font-family: 'paton-rust';
+  
+  
 }
 .gauche{
   display:flex;
@@ -13,20 +17,34 @@
   flex-direction:column;
   width:var(--main-width);
   background-color:red;
-  border-radius: 0px;
+ 
   
   
 }
 .coordonnés{
   display:flex;
-  justify-content: flex-end; 
   background-color: black;
-  height:145px;
+  flex-direction:column;
+  height:var(--main-height);
   width:350px;
   border-radius:25px;
   margin-top:80px;
   margin-left:145px;
+  text-align: center;
+  justify-content:center;
+  flex-direction:column; 
+  border:ridge;
   
+}
+
+.coordonnés:hover:before{
+  content:'age: 24 \a adresse: 10 rue de la gloire \a ville: Bikiny Bottom \a n°Tel: 06 51 44 61 66 ' ;
+  display:block;
+  white-space:pre;
+}
+
+.coordonnés:before{
+    content:"Coordonnées";
 }
 
 #test{
@@ -37,20 +55,38 @@
   
 }
 
-h2{
-  color: white ;
-  margin-right:100px;
-  text-align:center;
-}
 .compétences{
   display:flex;
-  justify-content: flex-end;
   background-color: black;
-  height:145px;
+  height:var(--main-height);
   width:350px;
   border-radius:25px;
   margin-top:80px;
   margin-left:15px;
+  text-align: center;
+  justify-content:center;
+  flex-direction:column; 
+  border:ridge;
+}
+
+.compétences:hover:before{
+  content:"Permis B, B1, B2, C \a Permis Avion \a Permis port d'armes \a Maitrise karaté, jujitsu \a Culture cinématographique accrue \a Maitrise du voyage dans le temps";
+  display:block;
+  white-space:pre;
+}
+
+.compétences:before{
+  content:"Compétences";
+}
+
+@font-face {
+font-family: 'paton-rust';
+src: url('PatonRustHeavy-Gr.eot?') format('eot'),
+     url('PatonRustHeavy-Grsh.otf') format('truetype'),
+     url('PatonRustHeavy-Grsh.woff') format('woff'),
+     /*url('quadranta.svg#QuadrantaBold') format('svg');*/;
+     font-weight: normal;
+     font-style: normal;
 }
 .millieu{
   width:var(--main-width);
