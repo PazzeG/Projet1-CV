@@ -1,9 +1,4 @@
-.right-box{
-    width: 33.33%;
-    background-color:pink;
-  }
-
-  .experiences{
+ .experiences{
       color: aliceblue;
     display:flex;
     background-color: black;

@@ -31,7 +31,7 @@ color: aliceblue;
 
 
 .coordonnes{
-    color: aliceblue;
+  color: aliceblue;
   display:flex;
   background-color: black;
   flex-direction:column;
