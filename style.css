@@ -20,10 +20,11 @@
     background-color:green;
   }
 
+  
 
 
   .foot{
-    height:224px;
+    height: 28%;
     background-color:yellow;
 
 
@@ -49,9 +50,6 @@
 
     margin-left: 15%;
 
-    
-    
-     
   }
   
   .dispo:hover {
@@ -86,12 +84,7 @@
     margin-bottom: 5%;     
   }
   
-  .foot{
-    display: flex;
-    flex-direction: row; 
-    justify-content: space-around;
-    
-  }
+  
   
   .proj:hover{
     
@@ -119,6 +112,8 @@
   .dispo:hover:before {
       content:"Immediate";
       font-weight: normal;
+      font-size: 15px;
+
   }
   
   
@@ -126,7 +121,7 @@
       content:"PORJET";
       font-weight: bold;
       font-size: 20px;
-  
+      
       
   }
   
@@ -171,5 +166,25 @@
 	display: block; /* La balise devient de type block. */
 	width: 150px;
 }
+
+
+@media screen and (max-width: 700px) {
+  .foot {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: cente;
+  }
+  
+  .dispo {
+    margin-left: 1%;
+    margin-top: 5%;
+
+ 
+
+  }
+  
+}
+   
 
   
