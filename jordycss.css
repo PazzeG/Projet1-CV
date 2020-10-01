@@ -1,0 +1,62 @@
+/* jordy*/
+.competences{ 
+color: aliceblue;
+  display:flex;
+  background-color: black;
+  height:170px;
+  width:350px;
+  border-radius:25px;
+  margin-top:80px;
+  margin-left:15px;
+  text-align: center;
+  justify-content:center;
+  flex-direction:column;
+  border:ridge; 
+  transition:0.5s;
+}
+.competences:hover:before{
+  content:"Permis B, B1, B2, C \a Permis Avion \a Permis port d'armes \a Maitrise karaté, jujitsu \a Culture cinématographique accrue \a Maitrise du voyage dans le temps";
+  display:block;
+  white-space:pre;
+}
+
+.competences:before{
+  content:"Compétences";
+}
+
+.competences:hover{
+  transform : scale(1.2); 
+}
+
+
+
+.coordonnes{
+    color: aliceblue;
+  display:flex;
+  background-color: black;
+  flex-direction:column;
+  height:170px;
+  width:350px;
+  border-radius:25px;
+  margin-top:80px;
+  margin-left:140px;
+  text-align: center;
+  justify-content:center;
+  flex-direction:column;
+  border:ridge;
+  transition:0.5s;
+}
+
+.coordonnes:hover:before{
+  content:'age: 24 \a adresse: 10 rue de la gloire \a ville: Bikiny Bottom \a n°Tel: 06 51 44 61 66 ' ;
+  display:block;
+  white-space:pre;
+}
+
+.coordonnes:hover{
+  transform : scale(1.2); 
+}
+
+.coordonnes:before{
+    content:"Coordonnées";}
+    /* Jordy finish*/

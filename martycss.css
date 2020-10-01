@@ -1,0 +1,178 @@
+/* ---- NAVBAR ---- */
+
+
+
+:root{
+  --dark: #273e70;
+  --white: #d8dfee;
+}
+
+.burgerMenu{
+  display: none;
+}
+
+.navigations{
+  background-position: center;
+  background-image: url(Sources/navBoard.png);
+  justify-content: center;
+  height:80px;
+  width: 100%;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  box-shadow: 0px 0px 20px var(--dark);
+}
+
+.navList{
+  margin-block-start: 0;
+  padding-top:1em;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  
+}
+
+.nomIcone{
+  display:none;
+  font-family: Arial, Helvetica, sans-serif;
+  color: var(--dark);
+}
+
+.indexNav{
+  font-family: Helvetica, sans-serif;
+  color : black;
+  font-size: 14pt;
+}
+
+.indexNav:hover{
+  color :var(--dark);
+  transition: 0.5s;
+}
+
+#iconLinkedIn::after{
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #4177B2;
+  transition: width .3s;
+}
+
+#iconLinkedIn:hover::after{
+  width: 100%;
+  transition: width .3s;
+}
+
+#iconFacebook::after{
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #4D5991;
+  transition: width .3s;
+}
+
+#iconFacebook:hover::after{
+  width: 100%;
+  transition: width .3s;
+}
+
+#iconEmail::after{
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #655565;
+  transition: width .3s;
+}
+
+#iconEmail:hover::after{
+  width: 100%;
+  transition: width .3s;
+}
+
+#iconTwitter::after{
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #65A4DA;
+  transition: width .3s;
+}
+
+#iconTwitter:hover::after{
+  width: 100%;
+  transition: width .3s;
+}
+
+@media screen and (max-width:780px){
+  span{
+    display: block;
+    background-color: var(--dark);
+    height: 3px;
+    width : 40px;
+    margin-bottom: 0.3em;
+  }
+
+  .burgerMenu{
+   display: block;
+  }
+
+  .navigations{
+    height: 60px;
+    justify-items: center;
+    grid-area: logoTitre;
+    
+  }
+
+  .navList{
+    display: grid;
+    grid-gap: 5%;
+    grid-template-columns: 30% 30% 30%;
+    text-align: center;
+    padding: 0;
+    flex-direction: column;
+    justify-content: space-around;
+    justify-items: center;
+  }
+
+  .nomIcone{
+    display: block;
+  }
+
+  .indexNav{
+    grid-column: 2;
+    padding: 2em 0em 0em 0em;
+  }
+
+  .logoTitre{
+    display: flex;
+    height: 40px;
+    padding: 0.6em 0em 1em 0em;
+  }
+
+
+  #logoTitre{
+    grid-column: 2/3;
+    order: -2;
+  }
+
+  #nomLinkedIn{
+    color: #4177B2;
+  }
+
+  #nomFacebook{
+    color: #4D5991;
+  }
+
+  #nomEmail{
+    color: #655565;
+  }
+
+  #nomTwitter{
+    color:#65A4DA;
+  }
+
+}
+
+/* ---- NAVBAR FINISH ---- */
