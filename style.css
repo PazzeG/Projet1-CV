@@ -6,11 +6,9 @@
   display:flex;
   justify-content: center;
   height:57.7%;
-  color:white;
-  font-family: 'paton-rust';
-  
-  
+  color: white; 
 }
+
 .gauche{
   display:flex;
   flex-direction:column;
@@ -21,20 +19,20 @@
   
 }
 .coordonnés{
-  display:flex;
-  background-color: black;
+  display: flex;
   flex-direction:column;
   height:170px;
   width:350px;
   border-radius:25px;
-  margin-top:80px;
-  margin-left:140px;
+  margin-top:120px;
+  margin-left:170px;
   text-align: center;
   justify-content:center;
   flex-direction:column; 
-  border:ridge;
+  border:solid 1px;
+  border-color:rgb(254,232,0); 
   
-}
+}linear-gradient(133deg, rgba(254,232,0,0) 0%, rgba(254,232,0,1) 20%, rgba(235,108,8,1) 42%, rgba(231,28,115,1) 69%, rgba(35,172,179,1) 100%);
 
 .coordonnés:hover:before{
   content:'age: 24 \a adresse: 10 rue de la gloire \a ville: Bikiny Bottom \a n°Tel: 06 51 44 61 66 ' ;
@@ -55,17 +53,17 @@
 }
 
 .compétences{
-  display:flex;
-  background-color: black;
+  display: flex;
   height:170px;
   width:350px;
   border-radius:25px;
   margin-top:80px;
-  margin-left:15px;
+  margin-left:45px;
   text-align: center;
   justify-content:center;
   flex-direction:column; 
-  border:ridge;
+  border:solid 1px;
+  border-color:rgba(235,108,8,1);
 }
 
 .compétences:hover:before{
@@ -78,20 +76,13 @@
   content:"Compétences";
 }
 
-/*@font-face {
-     font-family: 'paton-rust';
-     src: url('PatonRustHeavy-Gr.eot?') format('eot'),
-     url('PatonRustHeavy-Grsh.otf') format('truetype'),
-     url('PatonRustHeavy-Grsh.woff') format('woff'),
-     /*url('quadranta.svg#QuadrantaBold') format('svg');*/;
-     /*font-weight: normal;
-     font-style: normal;*/
-}
+
 .millieu{
   width:var(--main-width);
   background-color:purple;
-  
+
 }
+
 .droite{
   width:var(--main-width);
   background-color:pink;
