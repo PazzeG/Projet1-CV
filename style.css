@@ -222,6 +222,17 @@ h2, p, ul li{
 /* Footer*/
 
 
+.foot-box{
+
+  height: 28%;
+  background-color:yellow;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
 .disponibilite {
   display: flex;
   justify-content: center;
@@ -232,7 +243,7 @@ h2, p, ul li{
   height: 170px;
   border-radius: 30px;
   margin: 15px;
-  margin-left: : 15%;
+  margin-left: 15%;
   background: #ffb233;
 }
 
@@ -255,7 +266,7 @@ h2, p, ul li{
   text-align: center;
   
 }
-
+/*
 .contact {
   width: 50px;
   height: 50px;
@@ -266,8 +277,11 @@ h2, p, ul li{
   background: #ffb233; 
   margin-top: 20px;
   margin-bottom: 5%;
+  margin-right: 5%;
   
-}
+  
+}*/
+
 
 
 
@@ -321,9 +335,16 @@ h2, p, ul li{
   background-color: #edf750;
 }
 
+
 .lienForm{
   text-decoration: none;
   color: black;
+  font-weight: bolder;
+  font-size: 60px;
+  border: solid;
+  border-radius: 50%;
+  background: #ffb233;
+  
 }
 
 
@@ -345,10 +366,11 @@ form{
 
 
 
+
 label{ 
 display: block; /* La balise devient de type block. */
 width: 150px;
-}
+} 
 
 @media screen and (max-width: 700px){
   .foot-box{
@@ -361,12 +383,11 @@ width: 150px;
     .disponibilite{
       margin-left: 1%;
       margin-top: 5%;
-  
-   
-  
     }
     
   }
+
+  
 
 /*  finish footer*/
 
@@ -435,3 +456,12 @@ width: 150px;
 .coordonnes:before{
     content:"Coordonnées";}
     /* Jordy finish*/
+
+
+
+
+.iconeC{
+  margin-top:5%;
+  margin-left:-18.7%;
+  margin-bottom: 9% ;
+}
