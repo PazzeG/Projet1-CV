@@ -20,7 +20,7 @@ body{
   --white: #d8dfee;
 }
 
-span{
+.burgerMenu{
   display: none;
 }
 
@@ -95,7 +95,7 @@ span{
   display: block;
   width: 0;
   height: 2px;
-  background: #F6D242;
+  background: #655565;
   transition: width .3s;
 }
 
@@ -123,28 +123,30 @@ span{
     display: block;
     background-color: var(--dark);
     height: 3px;
-    width : 60px;
-    margin-bottom: 10px;
+    width : 40px;
+    margin-bottom: 0.3em;
   }
 
-.navigations{
-  display: inline-grid;
-  grid-template-columns: 30% 30% 30%;
-  grid-column-gap: 5%;
-  justify-items: center;
-  grid-area: logoTitre;
-  
-}
+  .burgerMenu{
+   display: block;
+  }
+
+  .navigations{
+    height: 60px;
+    justify-items: center;
+    grid-area: logoTitre;
+    
+  }
 
   .navList{
-    /* display: grid;
-    
-    grid-template-rows: 30% 15% 15% 15%;
-    grid-template-columns: 25% 25% 25% 25%; */
+    display: grid;
+    grid-gap: 5%;
+    grid-template-columns: 30% 30% 30%;
     text-align: center;
     padding: 0;
     flex-direction: column;
     justify-content: space-around;
+    justify-items: center;
   }
 
   .nomIcone{
@@ -152,18 +154,36 @@ span{
   }
 
   .indexNav{
+    grid-column: 2;
     padding: 2em 0em 0em 0em;
   }
 
   .logoTitre{
     display: flex;
     height: 40px;
-    padding: 1.3em 0em 4em 0em;
+    padding: 0.6em 0em 1em 0em;
   }
 
 
   #logoTitre{
+    grid-column: 2/3;
     order: -2;
+  }
+
+  #nomLinkedIn{
+    color: #4177B2;
+  }
+
+  #nomFacebook{
+    color: #4D5991;
+  }
+
+  #nomEmail{
+    color: #655565;
+  }
+
+  #nomTwitter{
+    color:#65A4DA;
   }
 
 }
