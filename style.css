@@ -266,21 +266,7 @@ h2, p, ul li{
   text-align: center;
   
 }
-/*
-.contact {
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  font-size: 20px;
-  line-height: 5px;
-  text-align: center;
-  background: #ffb233; 
-  margin-top: 20px;
-  margin-bottom: 5%;
-  margin-right: 5%;
-  
-  
-}*/
+
 
 
 
@@ -335,10 +321,11 @@ h2, p, ul li{
   background-color: #edf750;
 }
 
-
-.lienForm{
-  text-decoration: none;
+a{
   color: black;
+}
+.lienForm{
+  
   font-weight: bolder;
   font-size: 60px;
   border: solid;
@@ -458,10 +445,3 @@ width: 150px;
     /* Jordy finish*/
 
 
-
-
-.iconeC{
-  margin-top:5%;
-  margin-left:-18.7%;
-  margin-bottom: 9% ;
-}
