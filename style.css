@@ -1,11 +1,12 @@
+@font-face { 
+  font-family: "quicksand"; src: url('font/Quicksand_Book.otf') format('otf');
+  font-family: "goodTimes"; src: url('font/good\ times\ rg.ttf');
+}
+
+
 body{
   margin: 0;
-  background-color: var(--white);
-}
-h2, p, ul li{
-  color: white ;
-  margin-right:96px;
-  text-align:center;
+  background-image: radial-gradient(white, var(--dark));
 }
 
 
@@ -24,9 +25,7 @@ h2, p, ul li{
   display:flex;
   
   flex-direction:column;
-  background-color:red;
- 
-  
+  /* background-color:red; */
   
 }
 
@@ -35,18 +34,18 @@ h2, p, ul li{
 .mid-box{
   width: 33.33%;
   
-  background-color:purple;
+  /* background-color:purple; */
 }
 .right-box{
   width: 33.33%;
-  background-color:pink;
+  /* background-color:pink; */
 }
 
 
 .foot-box{
   width: 100%;  
   height:30%;
-  background-color:yellow;
+  /* background-color:yellow; */
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -146,7 +145,7 @@ h2, p, ul li{
   width: 100%;
   border-bottom-right-radius: 20px;
   border-bottom-left-radius: 20px;
-  box-shadow: 0px 0px 20px var(--dark);
+  box-shadow: 0px 0px 20px  #101e3d;
 }
 
 .navList{
@@ -303,6 +302,41 @@ h2, p, ul li{
 }
 
 /* ---- NAVBAR FINISH ---- */
+
+/* ---- MID DIV ---- */
+
+.mid-box{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  justify-items: center;
+}
+
+.photoProfil{
+  display: block;
+  transition: 5s;
+  padding-top: 0.5em;
+}
+
+#textTitle{
+  font-family: "goodTimes";
+  font-size: 25pt;
+}
+
+#textDescribe{
+  font-family: "quicksand";
+  font-size: 15pt;
+}
+
+.textMid{
+  padding-bottom: 0.1em;
+}
+
+
+
+/* ---- FINISH MID DIV ---- */
+
 /* Footer*/
 
 
