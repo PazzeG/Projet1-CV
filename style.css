@@ -1,11 +1,11 @@
 :root {
-  --main-width: 550px;
-  --main-height:170px;
+  --main-width: 33.33333%;
+  
 }
 .centrale{
   display:flex;
   justify-content: center;
-  height:490px;
+  height:57.7%;
   color:white;
   font-family: 'paton-rust';
   
@@ -13,7 +13,6 @@
 }
 .gauche{
   display:flex;
-  justify-content: flex-start;
   flex-direction:column;
   width:var(--main-width);
   background-color:red;
@@ -25,11 +24,11 @@
   display:flex;
   background-color: black;
   flex-direction:column;
-  height:var(--main-height);
+  height:170px;
   width:350px;
   border-radius:25px;
   margin-top:80px;
-  margin-left:145px;
+  margin-left:140px;
   text-align: center;
   justify-content:center;
   flex-direction:column; 
@@ -58,7 +57,7 @@
 .compétences{
   display:flex;
   background-color: black;
-  height:var(--main-height);
+  height:170px;
   width:350px;
   border-radius:25px;
   margin-top:80px;
@@ -79,25 +78,26 @@
   content:"Compétences";
 }
 
-@font-face {
-font-family: 'paton-rust';
-src: url('PatonRustHeavy-Gr.eot?') format('eot'),
+/*@font-face {
+     font-family: 'paton-rust';
+     src: url('PatonRustHeavy-Gr.eot?') format('eot'),
      url('PatonRustHeavy-Grsh.otf') format('truetype'),
      url('PatonRustHeavy-Grsh.woff') format('woff'),
      /*url('quadranta.svg#QuadrantaBold') format('svg');*/;
-     font-weight: normal;
-     font-style: normal;
+     /*font-weight: normal;
+     font-style: normal;*/
 }
 .millieu{
   width:var(--main-width);
   background-color:purple;
+  
 }
 .droite{
   width:var(--main-width);
   background-color:pink;
 }
 .navigations{
-  height:80px;
+  height:90px;
   background-color:green;
 }
 .bas{
