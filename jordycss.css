@@ -1,8 +1,6 @@
 /* jordy*/
 .coordonnes{
-  background: -webkit-linear-gradient( #E71C73, #FEE800, #23ACB3);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: #26387A;
   display:flex;
   flex-direction:column;
   height:28%;
@@ -12,7 +10,7 @@
   text-align: center;
   justify-content:center;
   flex-direction:column;
-  border:ridge;
+  border:solid 2px; 
   transition:0.5s;
 }
 
@@ -31,9 +29,7 @@
 }
 
 .competences{
-  background: -webkit-linear-gradient( #E71C73, #FEE800, #23ACB3);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: #26387A;
   display:flex;
   height:28%;
   width:73%;
@@ -42,7 +38,7 @@
   text-align: center;
   justify-content:center;
   flex-direction:column;
-  border:ridge; 
+  border:solid 2px; 
   transition:0.5s;
   }
 

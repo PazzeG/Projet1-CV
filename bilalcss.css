@@ -1,17 +1,11 @@
 /* Footer*/
-
-
-
-
 .disponibilite {
-  background: -webkit-linear-gradient( #E71C73, #23ACB3 );
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: #26387A;
   display: flex;
   justify-content: center;
   flex-direction: column;
   text-align: center;
-  border: ridge;
+  border:solid 2px;
   height:72%;
   width:17.386%;
   border-radius:8px;
@@ -21,13 +15,11 @@
 }
 
 .disponibilite:hover {  
-  background: -webkit-linear-gradient( #E71C73, #23ACB3 );
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  scale: 1.1;
+  color: #26387A;
+  transform: scale(1.2);
 }
 .disponibilite:before {
-  content:"DISPONIBILITE";
+  content:"Disponibilité";
   font-weight: bold;
   font-size: 20px;
   
@@ -41,12 +33,10 @@
 }
 
 .projet{
-  background: -webkit-linear-gradient( #E71C73, #23ACB3 );
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: #26387A;
   height:72%;
   width:17.386%;
-  border: ridge;
+  border:solid 2px;
   border-radius:8px;
   margin:24px 0px 0px 152px;
   padding: 48.48px 40px;
@@ -63,17 +53,15 @@
 
 
 .projet:hover{  
-  background: -webkit-linear-gradient( #E71C73, #23ACB3 );
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  scale: 1.1;
+  color: #26387A;
+  transform: scale(1.2);
   }
 
 
 
 
 .projet:before {
-    content:"PROJET";
+    content:"Projet";
     font-weight: bold;
     font-size: 20px;
 
@@ -82,21 +70,19 @@
 
 .projet:hover:before {
 
-  content:"Le voyage dans le passé  à bord d'une machine à voyager dans le temps. Marty, doit résoudre les paradoxes temporels provoqués par ses interventions dans le passé et trouver le moyen de faire fonctionner la machine pour retourner à son époque d'origine";
+  content:"Le voyage dans le passé  à bord d'une machine à voyager dans le temps. \a Marty, doit résoudre les paradoxes temporels \a provoqués par ses interventions dans le passé \a et trouver le moyen  de faire fonctionner la machine pour \a retourner à son époque d'origine";
   font-weight: normal;
   font-size: 15px;
 
 }
 
 .contact:hover{  
-  background: -webkit-linear-gradient( #E71C73, #23ACB3 );
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  scale: 1.2;
+  color: #26387A;
+  transform: scale(1.2);
 }
 
 .formulaire{
-  /* background-color: #edf750; */
+  background-color: #26387A;
 }
 
 
@@ -112,7 +98,7 @@ form{
   left:50%;
   margin-left:-150px; 
   margin-top:-100px; 
-  background: #efece7;
+  background: #efeca8;
   
 }
 
