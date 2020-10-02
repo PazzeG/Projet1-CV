@@ -4,32 +4,53 @@
 
 
 .disponibilite {
+  background: -webkit-linear-gradient( #E71C73, #23ACB3 );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   display: flex;
   justify-content: center;
   flex-direction: column;
   text-align: center;
-  border: solid;
-  width: 350px; 
-  height: 170px;
-  border-radius: 30px;
-  margin: 15px;
-  margin-left: 15%;
-  background: #ffb233;
+  border: ridge;
+  height:72%;
+  width:17.386%;
+  border-radius:8px;
+  margin:24px 0px 0px 152px;
+  padding: 48.48px 40px;
+  
 }
 
-.disponibilite:hover {
-  background-color: gold;
+.disponibilite:hover {  
+  background: -webkit-linear-gradient( #E71C73, #23ACB3 );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   scale: 1.1;
+}
+.disponibilite:before {
+  content:"DISPONIBILITE";
+  font-weight: bold;
+  font-size: 20px;
+  
+  
+}
+
+.disponibilite:hover:before {
+  content:"Immediate";
+  font-weight: normal;
+  font-size: 15px;
 }
 
 .projet{
-  border: solid;
-  width: 350px; 
-  height: 170px; 
-  border-radius: 30px;
-  text-align: center;
-  margin: 15px; 
-  background: #ffb233;  
+  background: -webkit-linear-gradient( #E71C73, #23ACB3 );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  height:72%;
+  width:17.386%;
+  border: ridge;
+  border-radius:8px;
+  margin:24px 0px 0px 152px;
+  padding: 48.48px 40px;
+  text-align: center; 
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -41,38 +62,18 @@
 
 
 
-.projet:hover{
-  
-  background-color: gold;
+.projet:hover{  
+  background: -webkit-linear-gradient( #E71C73, #23ACB3 );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   scale: 1.1;
   }
 
 
-.contact:hover{
-  background-color: gold;
-  scale: 1.2;
-}
-
-
-
-
-.disponibilite:before {
-    content:"DISPONIBILITE";
-    font-weight: bold;
-    font-size: 20px;
-    
-    
-}
-
-.disponibilite:hover:before {
-    content:"Immediate";
-    font-weight: normal;
-    font-size: 15px;
-}
 
 
 .projet:before {
-    content:"PORJET";
+    content:"PROJET";
     font-weight: bold;
     font-size: 20px;
 
@@ -87,22 +88,17 @@
 
 }
 
+.contact:hover{  
+  background: -webkit-linear-gradient( #E71C73, #23ACB3 );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  scale: 1.2;
+}
+
 .formulaire{
   background-color: #edf750;
 }
 
-a{
-  color: black;
-}
-.lienForm{
-  
-  font-weight: bolder;
-  font-size: 60px;
-  border: solid;
-  border-radius: 50%;
-  background: #ffb233;
-  
-}
 
 
 form{
@@ -111,7 +107,6 @@ form{
   padding: 1em;
   border: 1px solid #CCC;
   border-radius: 1em;
-  
   position:absolute;
   top:50%;
   left:50%;
