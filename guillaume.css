@@ -1,59 +1,66 @@
-.right-box{
-    width: 33.33%;
-    /* background-color:pink; */
-  }
+.experiences{
+  background: -webkit-linear-gradient( #E71C73, #FEE800, #23ACB3);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display:flex;
+  flex-direction:column;
+  height:28%;
+  width:73%;
+  border-radius:8px;
+  margin:136px 0px 0px 8px;
+  text-align: center;
+  justify-content:center;
+  flex-direction:column;
+  border:ridge;
+  transition:0.5s;
+}
 
-  .experiences{
-      color: aliceblue;
-    display:flex;
-    background-color: black;
-    height:20%;
-    width:50%;
-    border-radius:8px;
-    margin-top:80px;
-    margin-left:2.5%;
-    margin-bottom: 40%;
-    text-align: center;
-    justify-content:center;
-    flex-direction:column; 
-    border:ridge;
+.experiences:before{
+  content:"Experiences";
+}
 
-    transition:0.5s;
-  }
+.experiences:hover:before{
+  content:"Conduite d'une DeLorean Temporelle" ;
+  display:block;
+  white-space:pre;
+}
+  
+.experiences:hover{
+  transform : scale(1.2); 
+}
 
-  /*.experiences:hover:before{
-    content:'age: 24 \a adresse: 10 rue de la gloire \a ville: Bikiny Bottom \a n°Tel: 06 51 44 61 66 ' ;
-    display:block;
-    white-space:pre;
-  }
+.diplomes{
+  background: -webkit-linear-gradient( #E71C73, #FEE800, #23ACB3);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display:flex;
+  flex-direction:column;
+  height:28%;
+  width:73%;
+  border-radius:8px;
+  margin:104px 0px 0px 72px;
+  text-align: center;
+  justify-content:center;
+  flex-direction:column;
+  border:ridge;
+  transition:0.5s;
+}
+
+.diplomes:before{
+  content:"Diplomes";
+}
+
+.diplomes:hover:before{
+  content:" \a 1885: Permis de port d'armes \a 1955: Diplomé du Conservatoire d'Hill Valley \a option Guitare Rock \a 1985: Permis de Taxi Temporelle" ;
+  display:block;
+  white-space:pre;
+}
   
-  .experiences:before{
-      content:"Coordonnées";
-  }
+.diplomes:hover{
+  transform : scale(1.2);
+}
   
-  .experiences:hover{
-    transform : scale(1.2); 
-  }*/
- 
-  
-  .diplomes{
-    color: white ;
-    margin-right:96px;
-    display:flex;
-    background-color: black;
-    height:20%;
-    width:50%;
-    border-radius:8px;
-    margin-top:80px;
-    margin-left:20%;
-    text-align: center;
-    justify-content:center;
-    flex-direction:column; 
-    border:ridge;
-    transition:0.5s;
-  }
-  
-  #diplomes{ 
+  /* #diplomes{ 
     padding-top: 15%;
   }
   
@@ -63,17 +70,6 @@
     text-align:center;
     font-size: 62%;
     padding-bottom: 5%;
-  }
-/*   
-  .diplomes:hover:before{
-    content:'age: 24 \a adresse: 10 rue de la gloire \a ville: Bikiny Bottom \a n°Tel: 06 51 44 61 66 ' ;
-    display:block;
-    white-space:pre;
-  }
+  } */
   
-  .diplomes:before{
-      content:"Coordonnées";
-  }
   
-  .diplomes:hover{
-    transform : scale(1.2);} */
