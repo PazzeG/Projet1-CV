@@ -109,6 +109,45 @@
   transition: width .3s;
 }
 
+
+/* ---- NAVBAR FINISH ---- */
+
+/* ---- MID DIV ---- */
+
+.mid-box{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  justify-items: center;
+}
+
+.photoProfil{
+  display: block;
+  transition: 5s;
+  padding-bottom: 0.5em;
+  padding-top: 8em;
+}
+
+#textTitle{
+  font-family: "goodTimes";
+  font-size: 25pt;
+  background: -webkit-linear-gradient(rgba(35,172,179,1) 0%, rgba(0,0,0,1) 100%);;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#textDescribe{
+  font-family: "Quicksand", sans-serif;
+  font-size: 15pt;
+}
+
+/* ---- FINISH MID DIV ---- */
+
+/* ---- MEDIA QUERIES ---- */
+
+/* -- TABLET -- */
+
 @media screen and (max-width:780px){
   span{
     display: block;
@@ -155,6 +194,81 @@
     padding: 0.6em 0em 1em 0em;
   }
 
+  #logoTitre{
+    grid-column: 2/3;
+    order: -2;
+  }
+
+  #nomLinkedIn{
+    color: #4177B2;
+  }
+
+  #nomFacebook{
+    color: #4D5991;
+  }
+
+  #nomEmail{
+    color: #655565;
+  }
+
+  #nomTwitter{
+    color:#65A4DA;
+  }
+
+  .photoProfil{
+    display: flex;
+  }
+
+}
+
+/* -- MOBILE PHONE -- */
+
+@media screen and (max-width:450px){
+
+  span{
+    display: block;
+    background-color: var(--dark);
+    height: 2px;
+    width : 30px;
+    margin-bottom: 0.3em;
+  }
+
+  .burgerMenu{
+   display: block;
+  }
+
+  .navigations{
+    height: 50px;
+    justify-items: center;
+    grid-area: logoTitre;
+    
+  }
+
+  .navList{
+    display: grid;
+    grid-gap: 5%;
+    grid-template-columns: 30% 30% 30%;
+    text-align: center;
+    padding: 0;
+    flex-direction: column;
+    justify-content: space-around;
+    justify-items: center;
+  }
+
+  .nomIcone{
+    display: block;
+  }
+
+  .indexNav{
+    grid-column: 2;
+    padding: 0.5em 0em 0em 0em;
+  }
+
+  .logoTitre{
+    display: flex;
+    height: 30px;
+    padding: 0.6em 0em 1em 0em;
+  }
 
   #logoTitre{
     grid-column: 2/3;
@@ -177,35 +291,13 @@
     color:#65A4DA;
   }
 
+  .photoProfil{
+    display: flex;
+  }
+
+
 }
 
-/* ---- NAVBAR FINISH ---- */
 
-/* ---- MID DIV ---- */
 
-.mid-box{
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  justify-content: center;
-  justify-items: center;
-}
-
-.photoProfil{
-  display: block;
-  transition: 5s;
-  padding-bottom: 0.5em;
-  padding-top: 8em;
-}
-
-#textTitle{
-  font-family: "goodTimes";
-  font-size: 25pt;
-}
-
-#textDescribe{
-  font-family: "quicksand";
-  font-size: 15pt;
-}
-
-/* ---- FINISH MID DIV ---- */
+/* ---- FINISH MEDIA QUERIES ---- */

@@ -4,7 +4,7 @@
 .foot-box{
 
   height: 28%;
-  background-color:yellow;
+  /* background-color:yellow; */
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -23,11 +23,11 @@
   border-radius: 30px;
   margin: 15px;
   margin-left: 15%;
-  background: #ffb233;
+  /* background: #ffb233; */
 }
 
 .disponibilite:hover {
-  background-color: gold;
+  /* background-color: gold; */
   scale: 1.1;
 }
 
@@ -38,7 +38,7 @@
   border-radius: 30px;
   text-align: center;
   margin: 15px; 
-  background: #ffb233;  
+  /* background: #ffb233;   */
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -52,13 +52,13 @@
 
 .projet:hover{
   
-  background-color: gold;
+  /* background-color: gold; */
   scale: 1.1;
   }
 
 
 .contact:hover{
-  background-color: gold;
+  /* background-color: gold; */
   scale: 1.2;
 }
 
@@ -97,7 +97,7 @@
 }
 
 .formulaire{
-  background-color: #edf750;
+  /* background-color: #edf750; */
 }
 
 a{
@@ -109,7 +109,7 @@ a{
   font-size: 60px;
   border: solid;
   border-radius: 50%;
-  background: #ffb233;
+  /* background: #ffb233; */
   
 }
 
