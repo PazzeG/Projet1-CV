@@ -59,9 +59,88 @@ body{
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
- padding-bottom: -250px;
+  padding-bottom: -250px;
 }
 
+@media screen and (max-width:780px){
+  .left-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;  }
 
+  .right-box{
+     display: flex;
+     flex-direction: column;
+     justify-content: space-around;
+     align-items: center;  }
+
+  .central-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .coordonnes{
+    margin-top:150px;
+    margin-left:10px;
+    height: 100px;
+    width: 250px;
+  }
+
+  .competences{
+    margin-left:10px;
+    height: 100px;
+    width: 250px;
+  }
+
+  .experiences{
+    margin-top:150px;
+    margin-left:10px;
+    height: 100px;
+    width: 250px;
+  }
+
+  .mid-box{
+    display: grid;
+    order: -2 ;
+  }
+  .foot-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+    .disponibilite{
+      margin-top:150px;
+      margin-left:10px;
+      height: 100px;
+      width: 250px;
+  }
+  .diplomes{
+    margin-top:150px;
+    margin-left:10px;
+    height: 100px;
+    width: 250px;
+  }
+  .projet{
+    margin-top:150px;
+    margin-left:10px;
+    height: 100px;
+    width: 250px;
+  }  
+  #iconFacebook{
+    display:none;
+  }
+  #iconLinkedIn{
+    display:none;
+  }
+  #iconTwitter{
+    display:none;
+  }
+  #iconEmail{
+    display:none;
+  }}
 
 
