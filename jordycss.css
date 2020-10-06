@@ -1,22 +1,21 @@
 /* jordy*/
 .coordonnes{
-  background: -webkit-linear-gradient( #E71C73, #FEE800, #23ACB3);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: #26387A;
   display:flex;
   flex-direction:column;
   height:28%;
   width:73%;
   border-radius:8px;
-  margin:136px 0px 0px 152px;
+  margin:136px 0px 0px 120px;
   text-align: center;
   justify-content:center;
   flex-direction:column;
-  border:ridge;
+  border:solid 2px; 
   transition:0.5s;
 }
 
 .coordonnes:before{
+  font-weight: bold;
   content:"Coordonnées";
 }
 
@@ -31,22 +30,22 @@
 }
 
 .competences{
-  background: -webkit-linear-gradient( #E71C73, #FEE800, #23ACB3);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: #26387A;
   display:flex;
+  flex-direction:column;
   height:28%;
   width:73%;
   border-radius:8px;
-  margin:104px 0px 0px 64px;
+  margin: 104px 0px 0px 64px;
   text-align: center;
   justify-content:center;
   flex-direction:column;
-  border:ridge; 
+  border:solid 2px; 
   transition:0.5s;
   }
 
 .competences:before{
+  font-weight: bold;
   content:"Compétences";
 }
 

@@ -1,19 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulaire de contact</title>
 
-    <link href="style.css" rel="stylesheet" type="text/css">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulaire de contact</title>
+
+  <link href="style.css" rel="stylesheet" type="text/css">
 
 </head>
-<body class="formulaire"> 
-    
+
+<body style="background-image: radial-gradient(white, var(--dark));">
+  <div class="background">
+    <header>
+      <nav class="navigations" id="Marty">
+        <ul class="navList">
+          <div class="burgerMenu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <li class="indexNav" id="iconLinkedIn"><a href="linkedIn.html" target="_blank"><img src="Sources/linkedin.png"
+                alt="Icone LinkedIn" />
+              <p class="nomIcone" id="nomLinkedIN">LinkedIn</p>
+            </a></li>
+          <li class="indexNav" id="iconFacebook"><a href="facebook.html" target="_blank"><img src="Sources/facebook.png"
+                alt="Icone Facebook" />
+              <p class="nomIcone" id="nomFacebook">Facebook</p>
+            </a></li>
+
+          <li id="logoTitre">
+            <a href="index.html">
+              <picture><img class="logoTitre" src="Sources/logo.png" alt="Logo CV Macfly" /></picture>
+            </a>
+          </li>
+
+
+
+          <li class="indexNav" id="iconEmail"><a href="form.html"><img src="Sources/email.png" alt="Icone E-mail-Mail">
+              <p class="nomIcone" id="nomEmail">E-Mail</p>
+            </a></li>
+          <li class="indexNav" id="iconTwitter"><a href="twitter.html" target="_blank"><img src="Sources/twitter.png"
+                alt="Icone Twitter" />
+              <p class="nomIcone" id="nomTwitter">Twitter</p>
+            </a></li>
+        </ul>
+
+      </nav>
+    </header>
 
     <section>
 
-        <div>
+      <div>
 
         <form action="traitement.php" method="post">
 
@@ -38,9 +76,10 @@
 
         </form>
 
-       </div>
-      
+      </div>
+
     </section>
-    
+  </div>
 </body>
+
 </html>

@@ -1,33 +1,22 @@
 /* Footer*/
-
-
-
-
 .disponibilite {
-  background: -webkit-linear-gradient( #E71C73, #23ACB3 );
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: #26387A;
   display: flex;
   justify-content: center;
   flex-direction: column;
   text-align: center;
-  border: ridge;
+  border:solid 2px;
   height:72%;
   width:17.386%;
   border-radius:8px;
   margin:24px 0px 0px 152px;
   padding: 48.48px 40px;
+  transition: 0.5s;
   
 }
 
-.disponibilite:hover {  
-  background: -webkit-linear-gradient( #E71C73, #23ACB3 );
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  scale: 1.1;
-}
 .disponibilite:before {
-  content:"DISPONIBILITE";
+  content:"Disponibilité";
   font-weight: bold;
   font-size: 20px;
   
@@ -35,18 +24,21 @@
 }
 
 .disponibilite:hover:before {
-  content:"Immediate";
-  font-weight: normal;
+  content:"Immédiate";
+  font-weight: bold;
   font-size: 15px;
 }
 
+.disponibilite:hover {  
+  color: #26387A;
+  transform: scale(1.2);
+}
+
 .projet{
-  background: -webkit-linear-gradient( #E71C73, #23ACB3 );
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: #26387A;
   height:72%;
   width:17.386%;
-  border: ridge;
+  border:solid 2px;
   border-radius:8px;
   margin:24px 0px 0px 152px;
   padding: 48.48px 40px;
@@ -55,50 +47,31 @@
   justify-content: center;
   flex-direction: column;
   text-align: center;
+  transition: 0.5s;
   
 }
 
-
-
-
-
-.projet:hover{  
-  background: -webkit-linear-gradient( #E71C73, #23ACB3 );
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  scale: 1.1;
-  }
-
-
-
-
 .projet:before {
-    content:"PROJET";
-    font-weight: bold;
-    font-size: 20px;
+  content:"Projet";
+  font-weight: bold;
+  font-size: 20px;
 
-    
+  
 }
 
 .projet:hover:before {
 
-  content:"Le voyage dans le passé  à bord d'une machine à voyager dans le temps. Marty, doit résoudre les paradoxes temporels provoqués par ses interventions dans le passé et trouver le moyen de faire fonctionner la machine pour retourner à son époque d'origine";
-  font-weight: normal;
+  content:"\a Vous guider à travers le temps et l'espace. \a Sans provoquer de paradoxes temporels!";
+  font-weight: normal; 
   font-size: 15px;
-
+  font-weight: bold;
 }
 
-.contact:hover{  
-  background: -webkit-linear-gradient( #E71C73, #23ACB3 );
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  scale: 1.2;
-}
+.projet:hover{  
 
-.formulaire{
-  /* background-color: #edf750; */
-}
-
+  color: #26387A;
+  transform: scale(1.2);
+  }
 
 
 form{
@@ -112,12 +85,9 @@ form{
   left:50%;
   margin-left:-150px; 
   margin-top:-100px; 
-  background: #efece7;
+  background: #efeca8;
   
 }
-
-
-
 
 label{ 
 display: block; /* La balise devient de type block. */
