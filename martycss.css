@@ -47,11 +47,13 @@
   font-family: Helvetica, sans-serif;
   color : black;
   font-size: 14pt;
+  scale: 0.8;
+  transition: 0.3s;
 }
 
 .indexNav:hover{
-  color :var(--dark);
-  transition: 0.5s;
+  scale: 1;
+  transition: 0.3s ease;
 }
 
 /* ---- NAVBAR FINISH ---- */
@@ -99,6 +101,8 @@
     cursor: pointer;
     transition: all 0.5s ease-in-out;
   }
+  
+  /* --- ANNIMATION MENU BURGER ---*/
 
   .burgerMenu.open .spanMid {
     transform: translateX(-50px);
@@ -111,6 +115,7 @@
     transform: rotate(-45deg) translate(0px, -5px);
   }
   
+  /* --- FIN ANNIMATION MENU BURGER ---*/
 
   .burgerMenu{
    display: block;
@@ -151,7 +156,7 @@
     order: -2;
   }
 
-  .photoProfil{
+  .photoProfil{ 
     display: flex;
   }
 
