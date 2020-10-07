@@ -105,10 +105,10 @@
     height: 0px;
   }
   .burgerMenu.open .spanTop {
-    transform: rotate(45deg) translate(-8px, 15px);
+    transform: rotate(45deg) translate(0px, 6px);
   }
   .burgerMenu.open .spanBot {
-    transform: rotate(-45deg) translate(-8px, -13px);
+    transform: rotate(-45deg) translate(0px, -5px);
   }
   
 
