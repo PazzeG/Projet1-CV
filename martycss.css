@@ -29,7 +29,7 @@
 .navList{
   margin-block-start: 0;
   padding-left: 0;
-  padding-top:0.2 em;
+  padding-top:0.4 em;
   list-style-type: none;
   display: flex;
   justify-content: space-around;
@@ -85,7 +85,7 @@
 
 /* -- TABLET -- */
 
-@media screen and (max-width:780px){
+@media screen and (max-width:1050px){
   a{
     text-decoration: none;
   }
@@ -96,7 +96,21 @@
     height: 3px;
     width : 40px;
     margin-bottom: 0.3em;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
   }
+
+  .burgerMenu.open .spanMid {
+    transform: translateX(-50px);
+    height: 0px;
+  }
+  .burgerMenu.open .spanTop {
+    transform: rotate(45deg) translate(-8px, 15px);
+  }
+  .burgerMenu.open .spanBot {
+    transform: rotate(-45deg) translate(-8px, -13px);
+  }
+  
 
   .burgerMenu{
    display: block;
@@ -170,7 +184,7 @@
 
   .navList{
     display: grid;
-    grid-gap: 5px;
+    grid-gap: 25px;
     grid-template-columns: 30% 30% 30%;
     text-align: center;
     padding: 0;
@@ -202,6 +216,7 @@
 
   .photoProfil{
     display: flex;
+    padding-top: 4em;
   }
 
 

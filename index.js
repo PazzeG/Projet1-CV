@@ -23,3 +23,14 @@ document.querySelector('.burgerMenu').addEventListener('click', function(e){
     }  
 });
 
+const menuBtn= document.querySelector(".burgerMenu");
+let menuOpen= false;
+menuBtn.addEventListener("click", () => {
+  if (!menuOpen) {
+    menuBtn.classList.add("open");
+    menuOpen= true;
+  } else {
+    menuBtn.classList.remove("open");
+    menuOpen= false;
+  }
+});
