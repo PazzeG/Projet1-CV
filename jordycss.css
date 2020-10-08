@@ -2,6 +2,7 @@
 .coordonnes{
   color: #26387A;
   display:flex;
+  z-index: 1;
   flex-direction:column;
   height:28%;
   width:73%;
