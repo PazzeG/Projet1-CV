@@ -1,39 +1,37 @@
 @import "jordycss.css";
-@import"martycss.css";
+@import "martycss.css";
 @import "bilalcss.css";
 @import "guillaume.css";
 
-@font-face { 
-  font-family: "goodTimes"; src: url('font/good\ times\ rg.ttf');
+@font-face {
+  font-family: "goodTimes";
+  src: url("font/good\ times\ rg.ttf");
 }
 
-
-body{
+body {
   margin: 0;
   background-image: radial-gradient(white, var(--dark));
 }
 
-.central-box{
+.central-box {
   margin-top: 82px;
   width: 100%;
-  display:flex;
-  flex-direction: row; 
+  display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  height:70%;
-
+  height: 70%;
 }
 
-.left-box{ 
+.left-box {
   display: flex;
   width: 33.33%;
   flex-direction: column;
   align-items: flex-start;
   /* background-color:red; */
-  
 }
 
-.mid-box{
+.mid-box {
   display: flex;
   width: 33.33%;
   flex-direction: column;
@@ -43,7 +41,7 @@ body{
   justify-items: center;
   /* background-color:purple; */
 }
-.right-box{
+.right-box {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
@@ -51,9 +49,8 @@ body{
   /* background-color:pink; */
 }
 
-
-.foot-box{
-  width: 100%;  
+.foot-box {
+  width: 100%;
   height: 40%;
   display: flex;
   flex-direction: row;
@@ -61,64 +58,3 @@ body{
   align-items: center;
   padding-bottom: -250px;
 }
-
-
-  .left-box{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;  }
-
-  .right-box{
-     display: flex;
-     flex-direction: column;
-     justify-content: space-around;
-     align-items: center;  }
-
-  .central-box{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-  }
-
-
-
-  .mid-box{
-    display: grid;
-    order: -2 ;
-  }
-  .foot-box{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-  }
-    .disponibilite{
-      margin-top:150px;
-      margin-left:10px;
-      height: 100px;
-      width: 250px;
-  }
-
-  
-  .projet{
-    margin-top:150px;
-    margin-left:10px;
-    height: 100px;
-    width: 250px;
-  }  
-  #iconFacebook{
-    display:none;
-  }
-  #iconLinkedIn{
-    display:none;
-  }
-  #iconTwitter{
-    display:none;
-  }
-  #iconEmail{
-    display:none;
-  }
-
-

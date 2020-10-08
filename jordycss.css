@@ -1,80 +1,76 @@
 /* jordy*/
-.coordonnes{
-  color: #26387A;
-  display:flex;
-  flex-direction:column;
-  height:28%;
-  width:73%;
-  border-radius:8px;
-  margin:136px 0px 0px 120px;
+.coordonnes {
+  color: #26387a;
+  display: flex;
+  flex-direction: column;
+  height: 28%;
+  width: 73%;
+  border-radius: 8px;
+  margin: 136px 0px 0px 120px;
   text-align: center;
-  justify-content:center;
-  flex-direction:column;
-  border:solid 2px; 
-  transition:0.5s;
+  justify-content: center;
+  flex-direction: column;
+  border: solid 2px;
+  transition: 0.5s;
 }
 
-.coordonnes:before{
+.coordonnes:before {
   font-weight: bold;
-  content:"Coordonnées";
+  content: "Coordonnées";
 }
 
-.coordonnes:hover:before{
-  content:'age: 24 \a adresse: 10 rue de la gloire \a ville: Bikiny Bottom \a n°Tel: 06 51 44 61 66 ' ;
-  display:block;
-  white-space:pre;
+.coordonnes:hover:before {
+  content: "age: 24 \a adresse: 10 rue de la gloire \a ville: Bikiny Bottom \a n°Tel: 06 51 44 61 66 ";
+  display: block;
+  white-space: pre;
 }
 
-.coordonnes:hover{
-  transform : scale(1.2); 
+.coordonnes:hover {
+  transform: scale(1.2);
 }
 
-.competences{
-  color: #26387A;
-  display:flex;
-  flex-direction:column;
-  height:28%;
-  width:73%;
-  border-radius:8px;
+.competences {
+  color: #26387a;
+  display: flex;
+  flex-direction: column;
+  height: 28%;
+  width: 73%;
+  border-radius: 8px;
   margin: 104px 0px 0px 64px;
   text-align: center;
-  justify-content:center;
-  flex-direction:column;
-  border:solid 2px; 
-  transition:0.5s;
-  }
+  justify-content: center;
+  flex-direction: column;
+  border: solid 2px;
+  transition: 0.5s;
+}
 
-.competences:before{
+.competences:before {
   font-weight: bold;
-  content:"Compétences";
+  content: "Compétences";
 }
 
-.competences:hover:before{
-  content:"Permis B, B1, B2, C \a Permis Avion \a Permis port d'armes \a Maitrise karaté, jujitsu \a Culture cinématographique accrue \a Maitrise du voyage dans le temps";
-  display:block;
-  white-space:pre;
+.competences:hover:before {
+  content: "Permis B, B1, B2, C \a Permis Avion \a Permis port d'armes \a Maitrise karaté, jujitsu \a Culture cinématographique accrue \a Maitrise du voyage dans le temps";
+  display: block;
+  white-space: pre;
 }
 
-.competences:hover{
-  transform : scale(1.2); 
+.competences:hover {
+  transform: scale(1.2);
 }
-      
-      
-    /* Jordy finish*/
+/* Jordy finish*/
 
-    @media screen and (max-width:780px){
-
-  .coordonnes{
-    margin-top:150px;
-    margin-left:10px;
+@media screen and (max-width: 780px) {
+  .coordonnes {
+    margin-top: 150px;
+    margin-left: 10px;
     height: 100px;
     width: 250px;
   }
 
-  .competences{
-    margin-left:10px;
+  .competences {
+    margin-left: 10px;
     height: 100px;
     width: 250px;
   }
-
-    }
+}

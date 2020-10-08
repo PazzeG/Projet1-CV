@@ -1,114 +1,100 @@
 /* Footer*/
 .disponibilite {
-  color: #26387A;
+  color: #26387a;
   display: flex;
   justify-content: center;
   flex-direction: column;
   text-align: center;
-  border:solid 2px;
-  height:72%;
-  width:17.386%;
-  border-radius:8px;
-  margin:24px 0px 0px 152px;
+  border: solid 2px;
+  height: 72%;
+  width: 17.386%;
+  border-radius: 8px;
+  margin: 24px 0px 0px 152px;
   padding: 48.48px 40px;
   transition: 0.5s;
-  
 }
 
 .disponibilite:before {
-  content:"Disponibilité";
+  content: "Disponibilité";
   font-weight: bold;
   font-size: 20px;
-  
-  
 }
 
 .disponibilite:hover:before {
-  content:"Immédiate";
+  content: "Immédiate";
   font-weight: bold;
   font-size: 15px;
 }
 
-.disponibilite:hover {  
-  color: #26387A;
+.disponibilite:hover {
+  color: #26387a;
   transform: scale(1.2);
 }
 
-.projet{
-  color: #26387A;
-  height:72%;
-  width:17.386%;
-  border:solid 2px;
-  border-radius:8px;
-  margin:24px 0px 0px 152px;
+.projet {
+  color: #26387a;
+  height: 72%;
+  width: 17.386%;
+  border: solid 2px;
+  border-radius: 8px;
+  margin: 24px 0px 0px 152px;
   padding: 48.48px 40px;
-  text-align: center; 
+  text-align: center;
   display: flex;
   justify-content: center;
   flex-direction: column;
   text-align: center;
   transition: 0.5s;
-  
 }
 
 .projet:before {
-  content:"Projet";
+  content: "Projet";
   font-weight: bold;
   font-size: 20px;
-
-  
 }
 
 .projet:hover:before {
-
-  content:"\a Vous guider à travers le temps et l'espace. \a Sans provoquer de paradoxes temporels!";
-  font-weight: normal; 
+  content: "\a Vous guider à travers le temps et l'espace. \a Sans provoquer de paradoxes temporels!";
+  font-weight: normal;
   font-size: 15px;
   font-weight: bold;
 }
 
-.projet:hover{  
-
-  color: #26387A;
+.projet:hover {
+  color: #26387a;
   transform: scale(1.2);
-  }
+}
 
-
-form{
+form {
   margin: 0 auto;
   width: 400px;
   padding: 1em;
-  border: 1px solid #CCC;
+  border: 1px solid #ccc;
   border-radius: 1em;
-  position:absolute;
-  top:50%;
-  left:50%;
-  margin-left:-150px; 
-  margin-top:-100px; 
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -150px;
+  margin-top: -100px;
   background: #efeca8;
-  
 }
 
-label{ 
-display: block; /* La balise devient de type block. */
-width: 150px;
-} 
+label {
+  display: block; /* La balise devient de type block. */
+  width: 150px;
+}
 
-@media screen and (max-width: 700px){
-  .foot-box{
+@media screen and (max-width: 700px) {
+  .foot-box {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
   }
-    
-    .disponibilite{
-      margin-left: 1%;
-      margin-top: 5%;
-    }
-    
+  .disponibilite {
+    margin-left: 1%;
+    margin-top: 5%;
   }
+}
 
-  
-
-/*  finish footer*/
+/* finish footer*/

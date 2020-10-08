@@ -1,89 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-
+  <head>
     <link href="style.css" rel="stylesheet" type="text/css" />
 
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="viewport"
+      content="width=device-width, heigth=device-heigth, initial-scale="
+    />
     <title>Marty McFly</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <header>
-        <nav class="navigations" id="Marty">
-            <ul class="navList">
-                    <a class="burgerMenu" href="#">
-                        <span class="spanTop"></span>
-                        <span class="spanMid"></span>
-                        <span class="spanBot"></span>
-                    </a>
-                <li class="indexNav" id="iconLinkedIn"><a href="linkedIn.html" target="_blank"><img
-                            src="Sources/linkedin.png" alt="Icone LinkedIn" />
-                    </a></li>
-                <li class="indexNav" id="iconFacebook"><a href="facebook.html" target="_blank"><img
-                            src="Sources/facebook.png" alt="Icone Facebook" />
-                    </a></li>
-                <li id="logoTitre">
-                    <a href="index.html">
-                        <picture><img class="logoTitre" src="Sources/logo.png" alt="Logo CV Macfly" /></picture>
-                    </a>
-                </li>
-                <li class="indexNav" id="iconEmail"><a href="form.html"><img src="Sources/email.png"
-                            alt="Icone E-mail-Mail">
-                    </a></li>
-                <li class="indexNav" id="iconTwitter"><a href="twitter.html" target="_blank"><img
-                            src="Sources/twitter.png" alt="Icone Twitter" />
-                    </a></li>
-            </ul>
-
-        </nav>
+      <nav class="navigations" id="Marty">
+        <ul class="navList">
+          <div class="burgerMenu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <li class="indexNav" id="iconLinkedIn">
+            <a href="linkedIn.html" target="_blank"
+              ><img src="Sources/linkedin.png" alt="Icone LinkedIn" />
+              <p class="nomIcone" id="nomLinkedIN">LinkedIn</p>
+            </a>
+          </li>
+          <li class="indexNav" id="iconFacebook">
+            <a href="facebook.html" target="_blank"
+              ><img src="Sources/facebook.png" alt="Icone Facebook" />
+              <p class="nomIcone" id="nomFacebook">Facebook</p>
+            </a>
+          </li>
+          <li id="logoTitre">
+            <a href="index.html">
+              <picture
+                ><img
+                  class="logoTitre"
+                  src="Sources/logo.png"
+                  alt="Logo CV Macfly"
+              /></picture>
+            </a>
+          </li>
+          <li class="indexNav" id="iconEmail">
+            <a href="form.html"
+              ><img src="Sources/email.png" alt="Icone E-mail-Mail" />
+              <p class="nomIcone" id="nomEmail">E-Mail</p>
+            </a>
+          </li>
+          <li class="indexNav" id="iconTwitter">
+            <a href="twitter.html" target="_blank"
+              ><img src="Sources/twitter.png" alt="Icone Twitter" />
+              <p class="nomIcone" id="nomTwitter">Twitter</p>
+            </a>
+          </li>
+        </ul>
+      </nav>
     </header>
     <section class="central-box">
+      <section class="left-box" id="jordy">
+        <div class="coordonnes" id="jordy2"></div>
+        <div class="competences" id="jordy3"></div>
+      </section>
+      <section class="mid-box" id="marty">
+        <picture class="photoProfil"
+          ><img src="Sources/imgProfil.png" alt="Picture of Marty McFLy"
+        /></picture>
+        <h1 class="textMid" id="textTitle">Marty McFLy</h1>
+        <p class="textMid" id="textDescribe">
+          21 ans - Permis B - Taxi Temporelle
+        </p>
+      </section>
 
-        <section class="left-box" id="jordy">
-            <div class="coordonnes" id="jordy2"></div>
-            <div class="competences" id="jordy3"></div>
-        </section>
-        <section class="mid-box" id="marty">
-            <picture class="photoProfil"><img src="Sources/imgProfil.png" alt="Picture of Marty McFLy"></picture>
-            <h1 class="textMid" id="textTitle">Marty McFLy</h1>
-            <p class="textMid" id="textDescribe">21 ans - Permis B - Taxi Temporel</p>
-        </section>
+      <section class="right-box" id="guillaume">
+        <div class="experiences" id="guillaume2">
+          <!-- <h2>Experiences</h2>
+<p>Conduite d'une DeLorean Temporelle</p> -->
+        </div>
 
-        <section class="right-box" id="guillaume">
+        <div class="diplomes" id="guillaume3">
+          <!-- <h2 class="titre_diplome" id="diplomes">Diplomes</h2>
 
-            <div class="experiences" id="guillaume2">
-                <!-- <h2>Experiences</h2>
-                <p>Conduite d'une DeLorean Temporelle</p> -->
-            </div>
-
-            <div class="diplomes" id="guillaume3">
-                <!-- <h2 class="titre_diplome" id="diplomes">Diplomes</h2>
-
-                <ul>
-                    <li>"1885: Permis de port d'armes"</li>
-                    <li>"1955: Diplomé du Conservatoire d'Hill Valley option Guitare Rock"</li>
-                    <li>"1985: Permis de Taxi Temporelle"</li>
-                </ul> -->
-            </div>
-        </section>
+<ul>
+<li>"1885: Permis de port d'armes"</li>
+<li>"1955: Diplomé du Conservatoire d'Hill Valley option Guitare Rock"</li>
+<li>"1985: Permis de Taxi Temporelle"</li>
+</ul> -->
+        </div>
+      </section>
     </section>
 
-
-
     <footer class="foot-box" id="bilal">
-
-        <div class="disponibilite">
-            <span></span>
-        </div>
-        <div class="projet"></div>
-        <div class="lienForm"> <a href="form.html" target="_blank"></a></div>
-
+      <div class="disponibilite">
+        <span></span>
+      </div>
+      <div class="projet"></div>
+      <div class="lienForm"><a href="form.html" target="_blank"></a></div>
     </footer>
-    <script src="index.js"></script>
-</body>
-
+  </body>
 </html>
-   
