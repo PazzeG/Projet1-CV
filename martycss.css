@@ -1,14 +1,11 @@
 /* ---- NAVBAR ---- */
-
 :root {
   --dark: #273e70;
   --white: #d8dfee;
 }
-
 .burgerMenu {
   display: none;
 }
-
 .navigations {
   background-position: center;
   background-image: url(Sources/navBoard.png);
@@ -18,14 +15,12 @@
   border-bottom-right-radius: 20px;
   border-bottom-left-radius: 20px;
   box-shadow: 0px 0px 8px #101e3d;
-  float: left;
   line-height: 40px;
   display: block;
   position: fixed;
   top: 0;
   z-index: 1000;
 }
-
 .navList {
   margin-block-start: 0;
   padding-left: 0;
@@ -35,13 +30,11 @@
   justify-content: space-around;
   align-items: center;
 }
-
 .nomIcone {
   display: none;
   font-family: Arial, Helvetica, sans-serif;
   color: var(--dark);
 }
-
 .indexNav {
   font-family: Helvetica, sans-serif;
   color: black;
@@ -49,18 +42,10 @@
   scale: 0.8;
   transition: 0.3s;
 }
-
 .indexNav:hover {
   scale: 1;
   transition: 0.3s ease;
-}
-
-
-
-/* ---- NAVBAR FINISH ---- */
-
-/* ---- MID DIV ---- */
-
+} /* ---- NAVBAR FINISH ---- */ /* ---- MID DIV ---- */
 .photoProfil {
   display: block;
   position: relative;
@@ -68,7 +53,6 @@
   padding-bottom: 0.5em;
   padding-top: 8em;
 }
-
 #textTitle {
   font-family: "goodTimes";
   font-size: 25pt;
@@ -79,23 +63,15 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-
 #textDescribe {
+  color: #081a42;
   font-family: "Quicksand", sans-serif;
   font-size: 15pt;
-}
-
-/* ---- FINISH MID DIV ---- */
-
-/* ---- MEDIA QUERIES ---- */
-
-/* -- TABLET -- */
-
+} /* ---- FINISH MID DIV ---- */ /* ---- MEDIA QUERIES ---- */ /* -- TABLET -- */
 @media screen and (max-width: 1050px) {
   a {
     text-decoration: none;
   }
-
   span {
     display: block;
     background-color: var(--dark);
@@ -104,10 +80,7 @@
     margin-bottom: 0.3em;
     cursor: pointer;
     transition: all 0.5s ease-in-out;
-  }
-
-  /* --- ANNIMATION MENU BURGER ---*/
-
+  } /* --- ANNIMATION MENU BURGER ---*/
   .burgerMenu.open .spanMid {
     transform: translateX(-50px);
     height: 0px;
@@ -117,20 +90,15 @@
   }
   .burgerMenu.open .spanBot {
     transform: rotate(-45deg) translate(0px, -5px);
-  }
-
-  /* --- FIN ANNIMATION MENU BURGER ---*/
-
+  } /* --- FIN ANNIMATION MENU BURGER ---*/
   .burgerMenu {
     display: block;
   }
-
   .navigations {
     height: 60px;
     justify-items: center;
     grid-area: logoTitre;
   }
-
   .navList {
     display: grid;
     grid-gap: 5%;
@@ -141,69 +109,43 @@
     justify-content: space-around;
     justify-items: center;
   }
-
-  .nomIcone {
-    display: block;
-  }
-
   .indexNav {
+    display: none;
     grid-column: 2;
     padding: 2em 0em 0em 0em;
   }
-
   .logoTitre {
     display: flex;
     height: 40px;
-    padding: 0.6em 0em 1em 0em;
+    padding: 0.7em 0em 1em 0em;
   }
-
   #logoTitre {
     grid-column: 2/3;
     order: -2;
   }
-
-  #nomLinkedIn {
-    color: #4177b2;
-  }
-
-  #nomFacebook {
-    color: #4d5991;
-  }
-
-  #nomEmail {
-    color: #655565;
-  }
-
-  #nomTwitter {
-    color: #65a4da;
-  }
-
   .photoProfil {
     display: flex;
   }
-}
-
-/* -- MOBILE PHONE -- */
-
+} /* -- MOBILE PHONE -- */
 @media screen and (max-width: 450px) {
+  a {
+    text-decoration: none;
+  }
   span {
     display: block;
     background-color: var(--dark);
     height: 2px;
-    width: 30px;
+    width: 25px;
     margin-bottom: 0.3em;
   }
-
   .burgerMenu {
     display: block;
   }
-
   .navigations {
     height: 50px;
     justify-items: center;
     grid-area: logoTitre;
   }
-
   .navList {
     display: grid;
     grid-gap: 25px;
@@ -214,105 +156,25 @@
     justify-content: space-around;
     justify-items: center;
   }
-
-  .nomIcone {
-    display: block;
-  }
-
   .indexNav {
+    display: none;
     grid-column: 2;
-    padding: 0.5em 0em 0em 0em;
+    padding: 3em 0em 0em 0em;
   }
-
   .logoTitre {
     display: flex;
-    height: 30px;
-    padding: 0.6em 0em 1em 0em;
+    height: 25px;
+    padding: 0.7em 0em 1em 0em;
   }
-
   #logoTitre {
     grid-column: 2/3;
     order: -2;
   }
-
-  #nomLinkedIn {
-    color: #4177b2;
+  .textTitle {
+    font-size: 20pt;
   }
-
-  #nomFacebook {
-    color: #4d5991;
-  }
-
-  #nomEmail {
-    color: #655565;
-  }
-
-  #nomTwitter {
-    color: #65a4da;
-  }
-
   .photoProfil {
     display: flex;
     padding-top: 4em;
   }
-
-  .left-box {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-  }
-
-  .right-box {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-  }
-
-  .central-box {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-  }
-
-  .mid-box {
-    display: grid;
-    order: -2;
-  }
-  .foot-box {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-  }
-  .disponibilite {
-    margin-top: 150px;
-    margin-left: 10px;
-    height: 100px;
-    width: 250px;
-  }
-
-  .projet {
-    margin-top: 150px;
-    margin-left: 10px;
-    height: 100px;
-    width: 250px;
-  }
-  #iconFacebook {
-    display: none;
-  }
-  #iconLinkedIn {
-    display: none;
-  }
-  #iconTwitter {
-    display: none;
-  }
-  #iconEmail {
-    display: none;
-  }
-
-}
-
-/* ---- FINISH MEDIA QUERIES ---- */
+} /* ---- FINISH MEDIA QUERIES ---- */
