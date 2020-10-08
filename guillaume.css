@@ -16,7 +16,7 @@
 
 .experiences:before {
   font-weight: bold;
-  content: "Experiences";
+  content: "Expériences";
 }
 
 .experiences:hover:before {
@@ -45,7 +45,7 @@
 
 .diplomes:before {
   font-weight: bold;
-  content: "Diplomes";
+  content: "Diplômes";
 }
 
 .diplomes:hover:before {
