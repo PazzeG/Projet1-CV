@@ -61,3 +61,20 @@
       
       
     /* Jordy finish*/
+
+    @media screen and (max-width:780px){
+
+  .coordonnes{
+    margin-top:150px;
+    margin-left:10px;
+    height: 100px;
+    width: 250px;
+  }
+
+  .competences{
+    margin-left:10px;
+    height: 100px;
+    width: 250px;
+  }
+
+    }

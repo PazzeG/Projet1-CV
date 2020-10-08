@@ -62,7 +62,7 @@ body{
   padding-bottom: -250px;
 }
 
-@media screen and (max-width:780px){
+
   .left-box{
     display: flex;
     flex-direction: column;
@@ -82,25 +82,7 @@ body{
     align-items: center;
   }
 
-  .coordonnes{
-    margin-top:150px;
-    margin-left:10px;
-    height: 100px;
-    width: 250px;
-  }
 
-  .competences{
-    margin-left:10px;
-    height: 100px;
-    width: 250px;
-  }
-
-  .experiences{
-    margin-top:150px;
-    margin-left:10px;
-    height: 100px;
-    width: 250px;
-  }
 
   .mid-box{
     display: grid;
@@ -118,12 +100,8 @@ body{
       height: 100px;
       width: 250px;
   }
-  .diplomes{
-    margin-top:150px;
-    margin-left:10px;
-    height: 100px;
-    width: 250px;
-  }
+
+  
   .projet{
     margin-top:150px;
     margin-left:10px;
@@ -141,6 +119,6 @@ body{
   }
   #iconEmail{
     display:none;
-  }}
+  }
 
 

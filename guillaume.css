@@ -59,6 +59,25 @@
 .diplomes:hover{
   transform : scale(1.2);
 }
+
+@media screen and (max-width:780px){
+
+  .experiences{
+    margin-top:150px;
+    margin-left:10px;
+    height: 100px;
+    width: 250px;
+  }
+
+
+  .diplomes{
+    margin-top:150px;
+    margin-left:10px;
+    height: 100px;
+    width: 250px;
+  }
+
+    }
   
   /* #diplomes{ 
     padding-top: 15%;
@@ -73,3 +92,4 @@
   } */
   
   /* Rght section  */
+
