@@ -28,7 +28,8 @@
 
 .navList{
   margin-block-start: 0;
-  padding-top:1em;
+  padding-left: 0;
+  padding-top:0.2 em;
   list-style-type: none;
   display: flex;
   justify-content: space-around;
@@ -53,63 +54,6 @@
   transition: 0.5s;
 }
 
-#iconLinkedIn::after{
-  content: '';
-  display: block;
-  width: 0;
-  height: 2px;
-  background: #4177B2;
-  transition: width .3s;
-}
-
-#iconLinkedIn:hover::after{
-  width: 100%;
-  transition: width .3s;
-}
-
-#iconFacebook::after{
-  content: '';
-  display: block;
-  width: 0;
-  height: 2px;
-  background: #4D5991;
-  transition: width .3s;
-}
-
-#iconFacebook:hover::after{
-  width: 100%;
-  transition: width .3s;
-}
-
-#iconEmail::after{
-  content: '';
-  display: block;
-  width: 0;
-  height: 2px;
-  background: #655565;
-  transition: width .3s;
-}
-
-#iconEmail:hover::after{
-  width: 100%;
-  transition: width .3s;
-}
-
-#iconTwitter::after{
-  content: '';
-  display: block;
-  width: 0;
-  height: 2px;
-  background: #65A4DA;
-  transition: width .3s;
-}
-
-#iconTwitter:hover::after{
-  width: 100%;
-  transition: width .3s;
-}
-
-
 /* ---- NAVBAR FINISH ---- */
 
 /* ---- MID DIV ---- */
@@ -130,6 +74,7 @@
 }
 
 #textDescribe{
+  color: #081a42;
   font-family: "Quicksand", sans-serif;
   font-size: 15pt;
 }
@@ -141,6 +86,10 @@
 /* -- TABLET -- */
 
 @media screen and (max-width:780px){
+  a{
+    text-decoration: none;
+  }
+
   span{
     display: block;
     background-color: var(--dark);
@@ -171,11 +120,8 @@
     justify-items: center;
   }
 
-  .nomIcone{
-    display: block;
-  }
-
   .indexNav{
+    display: none;
     grid-column: 2;
     padding: 2em 0em 0em 0em;
   }
@@ -183,28 +129,12 @@
   .logoTitre{
     display: flex;
     height: 40px;
-    padding: 0.6em 0em 1em 0em;
+    padding: 0.7em 0em 1em 0em;
   }
 
   #logoTitre{
     grid-column: 2/3;
     order: -2;
-  }
-
-  #nomLinkedIn{
-    color: #4177B2;
-  }
-
-  #nomFacebook{
-    color: #4D5991;
-  }
-
-  #nomEmail{
-    color: #655565;
-  }
-
-  #nomTwitter{
-    color:#65A4DA;
   }
 
   .photoProfil{
@@ -216,12 +146,15 @@
 /* -- MOBILE PHONE -- */
 
 @media screen and (max-width:450px){
+  a{
+    text-decoration: none;
+  }
 
   span{
     display: block;
     background-color: var(--dark);
     height: 2px;
-    width : 30px;
+    width : 25px;
     margin-bottom: 0.3em;
   }
 
@@ -233,12 +166,11 @@
     height: 50px;
     justify-items: center;
     grid-area: logoTitre;
-    
   }
 
   .navList{
     display: grid;
-    grid-gap: 5%;
+    grid-gap: 5px;
     grid-template-columns: 30% 30% 30%;
     text-align: center;
     padding: 0;
@@ -247,19 +179,16 @@
     justify-items: center;
   }
 
-  .nomIcone{
-    display: block;
-  }
-
   .indexNav{
+    display: none;
     grid-column: 2;
-    padding: 0.5em 0em 0em 0em;
+    padding: 3em 0em 0em 0em;
   }
 
   .logoTitre{
     display: flex;
-    height: 30px;
-    padding: 0.6em 0em 1em 0em;
+    height: 25px;
+    padding: 0.7em 0em 1em 0em;
   }
 
   #logoTitre{
@@ -267,20 +196,8 @@
     order: -2;
   }
 
-  #nomLinkedIn{
-    color: #4177B2;
-  }
-
-  #nomFacebook{
-    color: #4D5991;
-  }
-
-  #nomEmail{
-    color: #655565;
-  }
-
-  #nomTwitter{
-    color:#65A4DA;
+  .textTitle{
+    font-size: 20pt;
   }
 
   .photoProfil{
