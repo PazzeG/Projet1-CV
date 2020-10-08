@@ -13,7 +13,7 @@
   background-position: center;
   background-image: url(Sources/navBoard.png);
   justify-content: center;
-  height: 8%;
+  height: 75px;
   width: 100%;
   border-bottom-right-radius: 20px;
   border-bottom-left-radius: 20px;
@@ -28,7 +28,8 @@
 
 .navList {
   margin-block-start: 0;
-  padding-top: 1em;
+  padding-left: 0;
+  padding-top: 0.4 em;
   list-style-type: none;
   display: flex;
   justify-content: space-around;
@@ -45,68 +46,16 @@
   font-family: Helvetica, sans-serif;
   color: black;
   font-size: 14pt;
+  scale: 0.8;
+  transition: 0.3s;
 }
 
 .indexNav:hover {
-  color: var(--dark);
-  transition: 0.5s;
+  scale: 1;
+  transition: 0.3s ease;
 }
 
-#iconLinkedIn::after {
-  content: "";
-  display: block;
-  width: 0;
-  height: 2px;
-  background: #4177b2;
-  transition: width 0.3s;
-}
 
-#iconLinkedIn:hover::after {
-  width: 100%;
-  transition: width 0.3s;
-}
-
-#iconFacebook::after {
-  content: "";
-  display: block;
-  width: 0;
-  height: 2px;
-  background: #4d5991;
-  transition: width 0.3s;
-}
-
-#iconFacebook:hover::after {
-  width: 100%;
-  transition: width 0.3s;
-}
-
-#iconEmail::after {
-  content: "";
-  display: block;
-  width: 0;
-  height: 2px;
-  background: #655565;
-  transition: width 0.3s;
-}
-
-#iconEmail:hover::after {
-  width: 100%;
-  transition: width 0.3s;
-}
-
-#iconTwitter::after {
-  content: "";
-  display: block;
-  width: 0;
-  height: 2px;
-  background: #65a4da;
-  transition: width 0.3s;
-}
-
-#iconTwitter:hover::after {
-  width: 100%;
-  transition: width 0.3s;
-}
 
 /* ---- NAVBAR FINISH ---- */
 
@@ -114,6 +63,7 @@
 
 .photoProfil {
   display: block;
+  position: relative;
   transition: 5s;
   padding-bottom: 0.5em;
   padding-top: 8em;
@@ -141,14 +91,35 @@
 
 /* -- TABLET -- */
 
-@media screen and (max-width: 780px) {
+@media screen and (max-width: 1050px) {
+  a {
+    text-decoration: none;
+  }
+
   span {
     display: block;
     background-color: var(--dark);
     height: 3px;
     width: 40px;
     margin-bottom: 0.3em;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
   }
+
+  /* --- ANNIMATION MENU BURGER ---*/
+
+  .burgerMenu.open .spanMid {
+    transform: translateX(-50px);
+    height: 0px;
+  }
+  .burgerMenu.open .spanTop {
+    transform: rotate(45deg) translate(0px, 6px);
+  }
+  .burgerMenu.open .spanBot {
+    transform: rotate(-45deg) translate(0px, -5px);
+  }
+
+  /* --- FIN ANNIMATION MENU BURGER ---*/
 
   .burgerMenu {
     display: block;
@@ -235,7 +206,7 @@
 
   .navList {
     display: grid;
-    grid-gap: 5%;
+    grid-gap: 25px;
     grid-template-columns: 30% 30% 30%;
     text-align: center;
     padding: 0;
@@ -282,6 +253,7 @@
 
   .photoProfil {
     display: flex;
+    padding-top: 4em;
   }
 
   .left-box {
@@ -340,6 +312,7 @@
   #iconEmail {
     display: none;
   }
+
 }
 
 /* ---- FINISH MEDIA QUERIES ---- */

@@ -41,6 +41,22 @@ body {
   justify-items: center;
   /* background-color:purple; */
 }
+
+.backgroundTitle {
+  display: none;
+  opacity: 0%;
+  text-shadow: -5px 5px #8c95a7;
+  position: absolute;
+  justify-content: center;
+  text-align: center;
+  font-size: 120pt;
+  font-family: "goodTimes";
+  width: 100%;
+  color: #081a42;
+  margin: 0;
+  transition: 15s;
+}
+
 .right-box {
   display: flex;
   flex-direction: column;
