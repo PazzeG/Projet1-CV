@@ -18,12 +18,14 @@
 .coordonnes:before {
   font-weight: bold;
   content: "Coordonnées";
+  font-family: "goodTimes";
 }
 
 .coordonnes:hover:before {
-  content: "age: 24 \a adresse: 10 rue de la gloire \a ville: Bikiny Bottom \a n°Tel: 06 51 44 61 66 ";
+  content: "Âge: 24 \a Adresse: 10 rue de la gloire \a Ville: Bikiny Bottom \a n°Tel: 06 51 44 61 66 ";
   display: block;
   white-space: pre;
+  font-family: quicksand;
 }
 
 .coordonnes:hover {
@@ -48,12 +50,14 @@
 .competences:before {
   font-weight: bold;
   content: "Compétences";
+  font-family: "goodTimes";
 }
 
 .competences:hover:before {
   content: "Permis B, B1, B2, C \a Permis Avion \a Permis port d'armes \a Maitrise karaté, jujitsu \a Culture cinématographique accrue \a Maitrise du voyage dans le temps";
   display: block;
   white-space: pre;
+  font-family: quicksand;
 }
 
 .competences:hover {

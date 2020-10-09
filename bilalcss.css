@@ -9,7 +9,7 @@
   height: 72%;
   width: 17.386%;
   border-radius: 8px;
-  margin: 24px 0px 0px 152px;
+  margin: auto;
   padding: 48.48px 40px;
   transition: 0.5s;
 }
@@ -17,13 +17,13 @@
 .disponibilite:before {
   content: "Disponibilité";
   font-weight: bold;
-  font-size: 20px;
+  font-family: "goodTimes";
 }
 
 .disponibilite:hover:before {
   content: "Immédiate";
   font-weight: bold;
-  font-size: 15px;
+  font-family: quicksand;
 }
 
 .disponibilite:hover {
@@ -37,7 +37,7 @@
   width: 17.386%;
   border: solid 2px;
   border-radius: 8px;
-  margin: 24px 0px 0px 152px;
+  margin: auto;
   padding: 48.48px 40px;
   text-align: center;
   display: flex;
@@ -50,14 +50,14 @@
 .projet:before {
   content: "Projet";
   font-weight: bold;
-  font-size: 20px;
+  font-family: "goodTimes";
 }
 
 .projet:hover:before {
   content: "\a Vous guider à travers le temps et l'espace. \a Sans provoquer de paradoxes temporels!";
   font-weight: normal;
-  font-size: 15px;
   font-weight: bold;
+  font-family: quicksand;
 }
 
 .projet:hover {
@@ -67,23 +67,58 @@
 
 form {
   margin: 0 auto;
-  width: 400px;
-  padding: 1em;
+  width: 500px;
+  padding: 2%;
   border: 1px solid #ccc;
   border-radius: 1em;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  margin-left: -150px;
-  margin-top: -100px;
-  background: #efeca8;
+  margin-top: 10%;
+  background: #87ceeb;
 }
-
+form div {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+#msg,
+#name,
+#mail,
+#societe {
+  /*border: 1px solid #CCC;*/
+  border-radius: 8px;
+}
+#name,
+#mail,
+#societe {
+  height: 24px;
+}
+#msg {
+  height: 80px;
+}
+.miss {
+  padding-top: 2%;
+  width: 100%;
+}
 label {
   display: block; /* La balise devient de type block. */
   width: 150px;
 }
-
+.envoyerMsg {
+  background-color: #1e90ff;
+  border: none;
+  color: white;
+  margin: 0 auto;
+  padding: 10px;
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+  font-size: 15px;
+  cursor: pointer;
+}
+.envoyerMsg:hover {
+  background-color: #4682b4;
+}
 @media screen and (max-width: 700px) {
   .foot-box {
     display: flex;
@@ -95,6 +130,13 @@ label {
     margin-left: 1%;
     margin-top: 5%;
   }
+  form {
+    margin: 0 auto;
+    width: 300px;
+    padding: 2%;
+    border: 1px solid #ccc;
+    border-radius: 1em;
+    margin-top: 30%;
+    background: #87ceeb;
+  }
 }
-
-/* finish footer*/

@@ -17,12 +17,14 @@
 .experiences:before {
   font-weight: bold;
   content: "Expériences";
+  font-family: "goodTimes";
 }
 
 .experiences:hover:before {
   content: "Conduite d'une DeLorean Temporelle";
   display: block;
   white-space: pre;
+  font-family: quicksand;
 }
 .experiences:hover {
   transform: scale(1.2);
@@ -46,11 +48,13 @@
 .diplomes:before {
   font-weight: bold;
   content: "Diplômes";
+  font-family: "goodTimes";
 }
 
 .diplomes:hover:before {
   content: " \a 1885: Permis de port d'armes \a 1955: Diplomé du Conservatoire \a d'Hill Valley \a option Guitare Rock \a 1985: Permis de Taxi Temporelle";
   white-space: pre;
+  font-family: quicksand;
 }
 .diplomes:hover {
   transform: scale(1.2);
