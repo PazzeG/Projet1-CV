@@ -22,7 +22,7 @@
 }
 
 .coordonnes:hover:before {
-  content: "Âge: 24 \a Adresse: 10 rue de la gloire \a Ville: Bikiny Bottom \a n°Tel: 06 51 44 61 66 ";
+  content: "Âge: 24 \a Adresse: 10 rue de la gloire \a Ville: Bikiny Bottom \a n° Tel: 06 51 44 61 66 ";
   display: block;
   white-space: pre;
   font-family: quicksand;
@@ -54,7 +54,7 @@
 }
 
 .competences:hover:before {
-  content: "Permis B, B1, B2, C \a Permis Avion \a Permis port d'armes \a Maitrise karaté, jujitsu \a Culture cinématographique accrue \a Maitrise du voyage dans le temps";
+  content: "Permis B, B1, B2, C \a Permis Avion \a Permis port d'armes \a Maitrise karaté, jujitsu \a Culture cinématographique\a Maitrise accrue du voyage dans le temps";
   display: block;
   white-space: pre;
   font-family: quicksand;
